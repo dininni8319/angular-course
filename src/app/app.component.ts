@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-root', //html tag to inbad your component
+  templateUrl: './app.component.html', //html file
+  styleUrls: ['./app.component.css'] //style, they can be multiple
 })
 export class AppComponent {
-  title = 'angular-crush';
+ 
 }

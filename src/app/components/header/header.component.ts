@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 
 export class HeaderComponent implements OnInit {
-  title: string = 'Task Trucker';
+  title: string = 'Task Tracker';
   showAddTask: boolean = false;
   subscription: Subscription;
 
